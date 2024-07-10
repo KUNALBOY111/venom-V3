@@ -4,8 +4,8 @@ import logging
 from aiogram import Bot
 import asyncio
 
-API_TOKEN = '7255048090:AAH2_TjHO-6Kk8WVZiwPdbZMfSPUJhwrZNY'
-ADMIN_ID = '5588464519'
+API_TOKEN = '6389761777:AAH7Oongir9KO9IGa1spei7MQS5tkgrCBZ4'
+ADMIN_ID = '6076127022'
 MAX_RESTARTS = 5
 RESTART_PERIOD = 60  # Seconds
 
@@ -27,7 +27,7 @@ async def notify_admin(message):
 async def main():
     """Main function to manage bot process lifecycle."""
     restart_count = 0
-    last_restart_time = time.time()
+    last_restart_time = time.time(24/7)
     
     while True:
         if restart_count >= MAX_RESTARTS:
